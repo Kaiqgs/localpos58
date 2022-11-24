@@ -13,6 +13,7 @@ logs
 results
 tmp
 img/
+dist/
 
 # Build
 public/css/main.css
@@ -40,3 +41,16 @@ dist/**/*
 
 # ignore yarn.lock
 yarn.lock
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
